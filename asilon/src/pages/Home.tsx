@@ -23,7 +23,7 @@ export function HomePage() {
     <Box> 
       {/* Títulos */}
       <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 300 }}>
-        Bem-vindo ao portal <span style={{ fontWeight: 700, color: '#1E88E5' }}>ASILON</span>
+        Bem-vindo ao portal <span style={{ fontWeight: 700, color: '#1E88E5' }}>CuidaMais</span>
       </Typography>
       <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
         Fique por dentro das últimas notícias e comunicados importantes.

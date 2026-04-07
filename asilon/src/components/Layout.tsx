@@ -186,7 +186,7 @@ export function Layout() {
         <Toolbar>
           <ApartmentIcon sx={{ mr: 1, display: { xs: 'none', md: 'flex' } }} />
           <Typography variant="h6" noWrap component={Link} to="/" sx={{ fontWeight: 'bold', letterSpacing: 1, color: 'inherit', textDecoration: 'none', cursor: 'pointer' }}>
-            ASILON
+            CuidaMais
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', mr: 2 }}>

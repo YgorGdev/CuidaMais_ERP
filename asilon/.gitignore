@@ -1,25 +1,38 @@
-# Logs
+# --- Dependências ---
+# Remove a pasta node_modules da raiz e de subpastas
+node_modules/
+**/node_modules/
+package-lock.json
+
+# --- Editor / IDE ---
+# Remove configurações do VS Code e outras IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Builds e Outputs ---
+# Ignora as pastas de saída de compilação
+dist/
+dist-ssr/
+build/
+bin/
+obj/
+
+# --- Logs ---
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
-../.vscode
-node_modules
-../node_modules
-dist
-dist-ssr
-*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# --- Ambiente / Segredo ---
+# Nunca suba arquivos de variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# --- SO ---
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
